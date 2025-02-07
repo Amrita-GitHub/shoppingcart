@@ -1,4 +1,4 @@
-# FROM openjdk:8u151-jdk-alpine3.7
+FROM openjdk:8u151-jdk-alpine3.7
 
 # EXPOSE 8070
 
@@ -12,7 +12,7 @@
 
 
 # Use an OpenJDK image for Windows Server Core
-FROM mcr.microsoft.com/openjdk/jdk:8-windowsservercore-ltsc2019
+#FROM mcr.microsoft.com/openjdk/jdk:8-windowsservercore-ltsc2019
 
 # Set environment variables
 ENV APP_HOME="C:\\app"
